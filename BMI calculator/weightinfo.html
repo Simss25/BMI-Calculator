@@ -1,0 +1,61 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Management Information</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="info-container">
+        <h1>Weight Management Information</h1>
+
+        <section>
+            <h2>Weight Categories</h2>
+            <p>Based on BMI, weight categories are classified as follows:</p>
+            <ul>
+                <li><strong>Underweight:</strong> BMI less than 18.5</li>
+                <li><strong>Normal weight:</strong> BMI between 18.5 and 24.9</li>
+                <li><strong>Overweight:</strong> BMI between 25 and 29.9</li>
+                <li><strong>Obesity:</strong> BMI of 30 or higher</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Health Issues Related to Weight</h2>
+            <p>Weight outside the normal range can increase risks for various health conditions:</p>
+            <ul>
+                <li><strong>Underweight:</strong> Risk of malnutrition, osteoporosis, anemia, and weakened immune function.</li>
+                <li><strong>Overweight/Obesity:</strong> Increased risk of heart disease, diabetes, high blood pressure, and joint issues.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Weight Management Tips</h2>
+            <p>Here are some tips to manage and maintain a healthy weight:</p>
+            <ul>
+                <li><strong>Balanced Diet:</strong> Eat a diet rich in fruits, vegetables, lean proteins, and whole grains. Avoid excessive sugars and processed foods.</li>
+                <li><strong>Regular Exercise:</strong> Engage in physical activity, like walking, jogging, or strength training, for at least 30 minutes most days of the week.</li>
+                <li><strong>Hydration:</strong> Drink plenty of water throughout the day.</li>
+                <li><strong>Adequate Sleep:</strong> Aim for 7-9 hours of sleep each night to support overall health.</li>
+                <li><strong>Stress Management:</strong> Practice mindfulness, meditation, or hobbies to reduce stress, which can impact weight.</li>
+            </ul>
+        </section>
+
+        <div id="result"></div>
+
+<!-- Link to Weight Management Page -->
+<div id="moreInfoContainer" style="display: none;">
+    <button onclick="window.location.href='weight_management.html'">Learn More About Weight Management</button>
+</div>
+
+        <button onclick="goBack()">More info</button>
+    </div>
+    <script>
+        function goBack() {
+            window.location.href ="weightmanagment.html"
+        }
+    </script>
+
+</body>
+</html>
